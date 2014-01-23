@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://jakarta.apache.org/struts/dtds/struts-config_1_2.dtd">
+<struts-config>
+	<form-beans>
+		<!-- BEGIN FORM-BEANS -->
+		<!-- END FORM-BEANS -->
+	</form-beans>
+	
+	<action-mappings>
+		<!-- BEGIN ACTIONS -->
+<!-- BEGIN PLUGIN-ACTION:hello.world -->
+<action path="/ext/strutshello/view_hello" type="com.dotmarketing.plugins.hello.world.portlet.struts.ViewHelloWorld">
+	<forward name="portlet.ext.plugins.hello.world.struts" path="portlet.ext.plugins.hello.world.struts" />
+	<forward name="portlet.ext.plugins.hello.world.struts.max" path="portlet.ext.plugins.hello.world.struts.max" />
+</action>
+<!-- END PLUGIN-ACTION:hello.world -->
+		<!-- END ACTIONS -->
+	</action-mappings>
+	<!-- BEGIN PLUG-INS -->
+    <!-- END PLUG-INS -->
+</struts-config>

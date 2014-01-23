@@ -1,0 +1,27 @@
+### This file should include client specific macros
+## Don't ever delete or modify the following comments it will break the plugin system
+## BEGIN PLUGINS
+
+-classpath
+-classpath
+-classpath
+-classpath
+-classpath
+-classpath
+-classpath
+-classpath
+-classpath
+-classpath
+## BEGIN PLUGIN:hello.world
+#macro(helloWorld )
+	Hello World macro
+#end
+
+## END PLUGIN:hello.world
+## BEGIN PLUGIN:com.learndotcms.plugins.ircsupport
+null
+## END PLUGIN:com.learndotcms.plugins.ircsupport
+## BEGIN PLUGIN:com.dotcms.config
+null
+## END PLUGIN:com.dotcms.config
+## END PLUGINS
